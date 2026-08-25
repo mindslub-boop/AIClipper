@@ -1,2 +1,0 @@
-fastapi
-workers-py>=1.9
