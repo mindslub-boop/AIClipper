@@ -1,14 +1,12 @@
 [project]
 name = "aiclipper"
 version = "0.1.0"
-description = "Personal AI video clipper"
-requires-python = ">=3.13"
+description = "AI Clipper"
+requires-python = ">=3.11"
 dependencies = [
     "fastapi",
+    "workers-py>=1.9"
 ]
 
-[dependency-groups]
-dev = [
-    "workers-py",
-    "workers-runtime-sdk",
-]
+[tool.setuptools]
+py-modules = ["app"]
