@@ -2,7 +2,13 @@
 name = "aiclipper"
 version = "0.1.0"
 description = "Personal AI video clipper"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "fastapi",
+]
+
+[dependency-groups]
+dev = [
+    "workers-py",
+    "workers-runtime-sdk",
 ]
