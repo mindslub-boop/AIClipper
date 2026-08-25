@@ -7,3 +7,4 @@ export default {
     });
   }
 };
+// AIClipper v1
